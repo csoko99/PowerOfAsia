@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Power Of Asia</title>
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <link rel="stylesheet" type="text/css" href="sections.css">
+    <script src="navigation.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><img class="logo" src="media/logo.png" alt="PowerOfAsia"></li>
+            <li><a href="#sec_1"><span><b>Történetünk</b></span></a></li>
+            <li><a href="#sec_2"><span><b>Rólunk</b></span></a></li>
+            <li><a href="#sec_3"><span><b>Szolgáltatásaink</b></span></a></li>
+            <li><a href="#sec_4"><span><b>Blog</b></span></a></li>
+            <li><a href="#sec_5"><span><b>Referenciák</b></span></a></li>
+            <li><a href="#sec_6"><span><b>Kapcsolat</b></span></a></li>
+            <li><a href="#"><img src="media/ENG_icon.png" alt="ENG_icon"></a></li>
+            <li><a href="#"><img src="media/facebook_icon.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="media/instagramm_icon.png" alt="Instagramm"></a></li>
+            <li><a href="#"><img src="media/linkedin_icon.png" alt="Linked In"></a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><img class="logo" src="media/logo.png" alt="PowerOfAsia"></li>
+            <li class="hideOnMobile"><a href="#sec_1"><span><b>Történetünk</b></span></a></li>
+            <li class="hideOnMobile"><a href="#sec_2"><span><b>Rólunk</b></span></a></li>
+            <li class="hideOnMobile"><a href="#sec_3"><span><b>Szolgáltatásaink</b></span></a></li>
+            <li class="hideOnMobile"><a href="#sec_4"><span><b>Blog</b></span></a></li>
+            <li class="hideOnMobile"><a href="#sec_5"><span><b>Referenciák</b></span></a></li>
+            <li class="hideOnMobile"><a href="#sec_6"><span><b>Kapcsolat</b></span></a></li>
+            <li class="hideOnMobile"><a href="#"><img src="media/ENG_icon.png" alt="ENG_icon"></a></li>
+            <li class="hideOnMobile"><a href="#"><img src="media/facebook_icon.png" alt="Facebook"></a></li>
+            <li class="hideOnMobile"><a href="#"><img src="media/instagramm_icon.png" alt="Instagramm"></a></li>
+            <li class="hideOnMobile"><a href="#"><img src="media/linkedin_icon.png" alt="Linked In"></a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="sor" id="sec_1">
+        <div class="leftSide">
+            <span><b>Célunk, hogy segítsünk vállalatoknak a magyarországi munkaerőpiaci kihívások leküzdésében!</b></span> <br>
+            <div class="hidden" id="hidden_1">
+                <span>A magyarországi munkaerőpiaci változások arra inspiráltak minket, hogy készségeinket, tudásunkat, tapasztalatainkat (HR, nemzetközi, ügyfélszolgálat, logisztika és vendéglátás) és az Ázsia iránti szenvedélyünket ötvözve segítsünk cégeknek a jelenlegi munkaerő piaci helyzet kezelésében. Hiszünk abban, hogy az ázsiai dolgozók kiválóan illeszkednek a cégekhez és segítségükkel javítani lehet a szolgáltatások minőségét, a csapatok együttműködését és egy stabilabb munkakörnyezet kialakítását.</span><br>
+            </div> 
+            <button id="show_hide"><b>Tovább</b></button>
+        </div>
+        
+        <div class="rightSide">
+            <img class="mediaPics" src="media/sec-1.png" alt="Power Of Asia">
+        </div>
+        
+    </section>
+
+    <section class="sor" id="sec_2">
+        
+        <div class="leftSide" id="about_info">
+            <h2>Rólunk</h2> 
+            <span>Az ázsiai dolgozók alkalmazásával segítünk cégeknek a magyarországi munkaerőpiaci kihívások kezelésében. </b></span> <br>
+            <div class="hidden" id="hidden_2">
+                <span>Üdvözöljük! Mi vagyunk a Power Of Asia, és szenvedélyünk, hogy segítsünk vállalatoknak a magyarországi munkaerőpiaci kihívások leküzdésében. Tapasztalt HR, nemzetközi ügyfélszolgálat, logisztika és vendéglátás területén, hiszünk abban, hogy az ázsiai munkaerő hozzájárulhat a szolgáltatások minőségének javításához, a csapatok hatékonyabb együttműködéséhez és egy stabilabb munkakörnyezet kialakításához. Fedezze fel, hogyan segíthetünk vállalkozásának!</span>
+            </div>
+            <button id="show_hide_2"><b>Tovább</b></button>
+            <br><br>
+        </div>
+
+        <div class="rightSide">
+            <img class="mediaPics" id="back" src="media/sec-2-back.png" alt="Power Of Asia">
+            <img class="mediaPics" id="front" src="media/sec-2-front.png" alt="Power Of Asia">
+        </div>
+        
+    </section>
+
+    <section id="sec_3">
+        
+        <div id="orange"></div>
+        <div class="" id="sec_3_main">
+            <h2>Szolgáltatásaink</h2>
+                <div class="row">
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <img class="border_image" src="media/border_image.png" alt="">
+                        <h3>szolg1</h3>
+                        <p>szöveg szöveg szöveg szöveg szöveg szöveg szöveg szöveg 
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="sec_4">
+        <h1>TODO</h1>
+    </section>
+    
+    <section id="sec_5">
+        <h2>Referenciák</h2>
+        <div class="container">
+            <div class="row ref_cont">
+                <div class="col-lg-6">
+                    <img class="mediaPics back"  src="media/sec-5-back.png" alt="">
+                    <img class="mediaPics front" src="media/sec-5-front.png" alt="">
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="mediaPics back"  src="media/sec-5-back.png" alt="">
+                    <img class="mediaPics front" src="media/sec-5-front.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sec_6">
+
+    </section>
+    
+    <section id="sec_7">
+
+    </section>
+
+</body>
+</html>
