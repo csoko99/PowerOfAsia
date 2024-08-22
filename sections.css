@@ -168,6 +168,90 @@ button:hover
     top: 1vw;
 }
 
+.referencia
+{
+    position: relative;
+    z-index: 3;
+    bottom: 12vw;
+}
+
+.ref-text
+{
+    font-size: 1ch;
+}
+
+.ref-name
+{
+    font-size: 0.7ch;
+}
+
+hr
+{
+    width: 10%;
+    position: relative;
+    left: 17vw;
+    border: 3px solid rgb(72, 71, 71);
+    border-radius: 10px;
+}
+
+.compHeadProf
+{
+    border:2px solid black;
+    border-radius: 50%;
+}
+
+/*section 6*/
+#sec_6
+{
+    background-color: #202556;
+    font-size: 3vw;
+    padding: 5vw;
+    color: white;
+}
+
+.background
+{
+    position: relative;
+    top: 3.05ch;
+}
+
+form
+{
+    font-size: 0.7ch;
+    width: 100%;
+}
+
+input
+{
+    width: 32.5%;
+    border-radius: 15px;
+    padding: 0.7ch;
+}
+
+textarea
+{
+    border-radius: 15px;
+    padding: 0.7ch;
+}
+
+::placeholder 
+{
+    color: #F57E20;
+    opacity: 1;
+}
+  
+  ::-ms-input-placeholder 
+{
+    color: #F57E20;
+}
+
+.data
+{
+    font-size: 0.7ch;
+    text-align: left;
+    padding-left: 20vw;
+}
+
 /*responsive designe*/
 @media(max-width:1000px)
 {
