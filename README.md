@@ -1,9 +1,15 @@
 Power of Asia
 
-Power of Asia is a web page created as part of a summer internship project. Although it's currently a work in progress, it serves to demonstrate my CSS skills and my approach to building a custom-designed web layout from scratch.
+ℹ️ About
+A visually-focused website created during a summer internship. The goal of the project was to enhance my advanced CSS skills by building a unique layout from scratch.
 
 🌐 Live Demo
-You can view the site live here:https://csoko99.github.io/PowerOfAsia/
+You can view the site live here: https://csoko99.github.io/PowerOfAsia/
+
+👨🏻‍💻 Skills
+- Advanced CSS
+- Responsive design
+- Attention to visual detail
 
 🎯 Purpose
 - This project was primarily developed to practice and showcase:
