@@ -1,6 +1,7 @@
 Power of Asia
 
 ℹ️ About
+
 A visually-focused website created during a summer internship. The goal of the project was to enhance my advanced CSS skills by building a unique layout from scratch.
 
 🌐 Live Demo
